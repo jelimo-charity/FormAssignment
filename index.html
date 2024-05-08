@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form Assignment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <div class="title">
+            <h2>Demonstrating Forms in HTML</h2>
+        </div>
+        <div class="first">
+            <p>Enter User Details </p>
+            <form>
+                <label for="fname">First name:</label>
+                <input type="text">
+                <label for="lname">Last name:</label>
+                <input type="text">
+                <label for="email">Email:</label>
+                <input type="email">
+                <label for="password">Password:</label>
+                <input type="password">
+            </form>
+            <div class="second">
+                <h3>Choose Your Gender (Radio Buttons)</h3>
+                <input type="radio" id="gender" name="female" >
+                <label for="female">Female</label><br>
+                <input type="radio" id="gender" name="female" >
+                <label for="male">Male</label><br>
+                <input type="radio" id="gender" name="private" >
+                <label for="private">Choose not to say</label>
+            </div>
+            <div class="third">
+                <h3>Choose your favorite languages (Checkboxes)</h3>
+                <label for="python">Python</label>
+                <input type="checkbox" name="python"> <br>
+                <label for="javascript">JavaScript</label>
+                <input type="checkbox" name="js"> <br>
+                <label for="html">Typescript</label>
+                <input type="checkbox" name="typescript"> <br>
+            </div>
+            <div class="fourth">
+                <h3>Select your favorite dish (select)</h3>
+                <select name="colors" id="colors">
+                    <option value="red">Pizza</option>
+                    <option value="gold">Chicken wings</option>
+                    <option value="black">Managu Ugali</option>
+                </select>
+                <p>You can also search here:</p>
+                <p><input type="search"></p>
+                
+            </div>
+            <div class="fifth">
+                <h3>More details</h3>
+                <label for="tel">Phone number:</label>
+                <input type="tel" >
+                <label for="time">Time</label>
+                <input type="time">
+                <label for="link">Paste the link here:</label>
+                <input type="url">
+                <label for="file">Upload a file</label>
+                <input type="file">
+                <label for="color">Choose color</label>
+                <input type="color">
+            </div>
+            <input type="submit">
+        </div>
+    </section>
+</body>
+</html>
